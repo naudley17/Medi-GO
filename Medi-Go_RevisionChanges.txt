@@ -1,0 +1,13 @@
+Medi-Go Revision Changes
+
+- Remade the entire app using a Service-Oriented Architecture.
+- We use React.js and Node.js as front end and back end frameworks respectively.
+- CICD pipeline is implemented using GitHub Actions.
+
+Node.js allows us to run JavaScript outside of the browser, and using React.js 
+we can create functional components which allows us to split the application into 
+different parts. These functional components in React can return JSX code, and allows 
+us to make custom HTML elements. As our React app needs to make web-service calls
+(HTTP-requests) to connect to our database it turns it from a single-page-app to a
+service-oriented app.
+
