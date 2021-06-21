@@ -9,8 +9,8 @@ app.use(express.json());
 const db = mysql.createConnection({
     user: 'root',
     host: 'localhost',
-    password: '2308',
-    database: 'Medi-GO',
+    password: '',
+    database: 'MediGO',
 });
 
 app.post('/create', (req, res)=>{
